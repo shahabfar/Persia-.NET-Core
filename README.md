@@ -135,5 +135,5 @@ LunarDate can display the date string as follow:
 #### Converting Latin numbers to Persian
 
 ``` C#
-String persianNumber = Persia.PersianWord.ToPersianString(12345);
+String persianNumber = Persia.PersianWord.ConvertToPersianNumber("12345");
 ```

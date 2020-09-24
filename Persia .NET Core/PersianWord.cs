@@ -45,7 +45,7 @@
             return strOut;
         }
 
-        private static string ConvertToPersianNumber(string num)
+        public static string ConvertToPersianNumber(string num)
         {
             if (string.IsNullOrWhiteSpace(num)) return string.Empty;
 
