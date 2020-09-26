@@ -13,6 +13,7 @@
     <RepositoryUrl>https://github.com/shahabfar/Persia-.NET-Core</RepositoryUrl>
     <PackageTags>date datet dateconvertion persian-datetime persian-calendar persian-to-gregorian persian-jalali-date-converter shamsi shamsi-date hijri-dates-converter hijri hidjri lunar-date</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

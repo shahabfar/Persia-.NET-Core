@@ -26,25 +26,6 @@
             return strOut.Replace("ي", "ی").Replace("ك", "ک");
         }
 
-
-        public static string ConvertToLatinNumber_(string num)
-        {
-            var strOut = "";
-            var nLen = num.Length;
-            if (nLen == 0)
-                return num;
-            for (var i = 0; i < nLen; i++)
-            {
-                var ch = num[i];
-                if ((1776 <= ch) && (ch <= 1785))
-                {
-                    ch = (char)(ch - 1728);
-                }
-                strOut += ch;
-            }
-            return strOut;
-        }
-
         public static string ConvertToPersianNumber(string num)
         {
             if (string.IsNullOrWhiteSpace(num)) return string.Empty;
