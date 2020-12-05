@@ -84,7 +84,7 @@ Considering above example the complete output format of ToRelativeDateString() m
 | Output | Parameter |
 | --- | --- |
 | X روز پیش (پیش فرض 30 روز) | ToRelativeDateString("D") |
-|  امروز| ToRelativeDateString("D") | 
+|  امروز| ToRelativeDateString("T") | 
 | امروز، دیروز | ToRelativeDateString("Y") | 
 | امروز، دیروز، x  روز پیش (پیش فرض یک هفته) | ToRelativeDateString("TY") | 
 | اکنون (کمتر از پنج دقیقه، پیش فرض پنج دقیقه) | ToRelativeDateString("N") | 
