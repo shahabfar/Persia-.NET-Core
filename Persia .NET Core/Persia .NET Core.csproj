@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Persia_.NET_Core</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -13,7 +13,8 @@
     <RepositoryUrl>https://github.com/shahabfar/Persia-.NET-Core</RepositoryUrl>
     <PackageTags>date datet dateconvertion persian-datetime persian-calendar persian-to-gregorian persian-jalali-date-converter shamsi shamsi-date hijri-dates-converter hijri hidjri lunar-date</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.1</Version>
+    <Version>1.0.5</Version>
+    <PackageReleaseNotes>compiled for .NET 5.0</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
