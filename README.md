@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/nibro7778/mydiary/workflows/dotnet-core-build/badge.svg)](https://github.com/shahabfar/Persia-.NET-Core)
 
-Persia .NET Core is a class library to convert Persian, Gregorian, and Arabic (Hijri) dates to each other. This library has been developed based on .NET Core 3.1
+Persia .NET Core is a class library to convert Persian, Gregorian, and Arabic (Hijri) dates to each other. This library has been developed based on .NET Core and it is now compatible with .NET 6.0
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
