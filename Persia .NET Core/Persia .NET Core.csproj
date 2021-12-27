@@ -7,7 +7,7 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Majid Shahabfar</Authors>
     <Company>Shahabfar</Company>
-    <Description>a class library to convert Persian, Gregorian, and Arabic (Hijri) dates to each other.</Description>
+    <Description>Class library to convert Persian, Gregorian, and Arabic (Hijri) dates to each other.</Description>
     <PackageId>Persia.NetCore</PackageId>
     <PackageProjectUrl>https://github.com/shahabfar/Persia-.NET-Core</PackageProjectUrl>
     <RepositoryUrl>https://github.com/shahabfar/Persia-.NET-Core</RepositoryUrl>
