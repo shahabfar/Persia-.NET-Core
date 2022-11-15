@@ -5,9 +5,13 @@ name: .NET Core Build
 
 on:
   push:
+    paths-ignore:
+      - 'readme.md'
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+    paths-ignore:
+      - 'readme.md'
 
 jobs:
   build:
@@ -27,4 +31,4 @@ jobs:
     - name: Build NuGet Package
       run: dotnet pack --configuration Release
     - name: Deploy NuGet Package
-      run: dotnet nuget push ./Persia.NetCore/bin/Release/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
+      run: dotnet nuget push ./Persia.NetCore/bin/Release/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s nuget.org --skip-duplicate
