@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persia.NetCore", "Persia .NET Core\Persia.NetCore.csproj", "{B3C508E9-A19E-4F50-922D-66CB3A74C0CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persia.NetCore", "Persia.NetCore\Persia.NetCore.csproj", "{B3C508E9-A19E-4F50-922D-66CB3A74C0CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
