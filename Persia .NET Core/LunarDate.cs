@@ -7,9 +7,9 @@
 
         public bool IsLeapYear => new System.Globalization.HijriCalendar().IsLeapYear(ArrayType[0]);
 
-        private readonly string[] _lunarMonths   = { "محرم", "صفر", "ربیع الاول", "ربیع الثانی", "جمادی الاولی", "جمادی الثانیة", "رجب", "شعبان", "رمضان", "شوال", "ذی قعده", "ذی حجّه" };
+        private readonly string[] _lunarMonths = { "محرم", "صفر", "ربیع الاول", "ربیع الثانی", "جمادی الاولی", "جمادی الثانیة", "رجب", "شعبان", "رمضان", "شوال", "ذی قعده", "ذی حجّه" };
         private readonly string[] _lunarWeekDays = { "اسبت", "الاحد", "الاثنین", "اثلاثا", "الاربعا", "الخمیس", "اجمعه" };
-        private readonly string[] _weekDays      = { "شنبه", "یکشنبه", "دوشنبه", "سه شنبه", "چهارشنبه", "پنج شنبه", "جمعه" };
+        private readonly string[] _weekDays = { "شنبه", "یکشنبه", "دوشنبه", "سه شنبه", "چهارشنبه", "پنج شنبه", "جمعه" };
 
         public new string ToString()
         {
@@ -25,30 +25,17 @@
 
         public string ToString(string dateFormatSpecifier)
         {
-            string dateFormat;
-            switch (dateFormatSpecifier)
+            string dateFormat = dateFormatSpecifier switch
             {
-                case "M":
-                    dateFormat = ConvertToArabic(ArrayType[2]) + " " + _lunarMonths[ArrayType[1] - 1] + " " +
-                                 ConvertToArabic(ArrayType[0]);
-                    break;
-                case "D":
-                    dateFormat = _weekDays[DayOfWeek] + " " + ConvertToArabic(ArrayType[2]) + " " +
-                                 _lunarMonths[ArrayType[1] - 1] + " " + ConvertToArabic(ArrayType[0]);
-                    break;
-                case "N":
-                    dateFormat = _lunarWeekDays[DayOfWeek] + " " + ConvertToArabic(ArrayType[2]) + " " +
-                                 _lunarMonths[ArrayType[1] - 1] + " " + ConvertToArabic(ArrayType[0]);
-                    break;
-                case "H":
-                    dateFormat =
-                        $"{ConvertToArabic(ArrayType[0])} / {ConvertToArabic(ArrayType[1])} / {ConvertToArabic(ArrayType[2])}";
-                    break;
-                default:
-                    dateFormat =
-                        $"{ConvertToArabic(ArrayType[0])} / {ConvertToArabic(ArrayType[1])} / {ConvertToArabic(ArrayType[2])}";
-                    break;
-            }
+                "M" => ConvertToArabic(ArrayType[2]) + " " + _lunarMonths[ArrayType[1] - 1] + " " +
+                                                 ConvertToArabic(ArrayType[0]),
+                "D" => _weekDays[DayOfWeek] + " " + ConvertToArabic(ArrayType[2]) + " " +
+                                                 _lunarMonths[ArrayType[1] - 1] + " " + ConvertToArabic(ArrayType[0]),
+                "N" => _lunarWeekDays[DayOfWeek] + " " + ConvertToArabic(ArrayType[2]) + " " +
+                                                 _lunarMonths[ArrayType[1] - 1] + " " + ConvertToArabic(ArrayType[0]),
+                "H" => $"{ConvertToArabic(ArrayType[0])} / {ConvertToArabic(ArrayType[1])} / {ConvertToArabic(ArrayType[2])}",
+                _ => $"{ConvertToArabic(ArrayType[0])} / {ConvertToArabic(ArrayType[1])} / {ConvertToArabic(ArrayType[2])}",
+            };
             return dateFormat;
         }
 
