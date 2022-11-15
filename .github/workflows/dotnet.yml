@@ -27,4 +27,4 @@ jobs:
     - name: Build NuGet Package
       run: dotnet pack --configuration Release
     - name: Deploy NuGet Package
-      run: dotnet nuget push ./Persia .NET Core/bin/Release/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
+      run: dotnet nuget push ./Persia.NetCore/bin/Release/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
