@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Persia_.NET_Core</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Majid Shahabfar</Authors>
+    <Company>Shahabfar</Company>
+    <Description>Class library to convert Persian, Gregorian, and Arabic (Hijri) dates to each other.</Description>
+    <PackageId>Persia.NetCore</PackageId>
+    <PackageProjectUrl>https://github.com/shahabfar/Persia-.NET-Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shahabfar/Persia-.NET-Core</RepositoryUrl>
+    <PackageTags>date datet dateconvertion persian-datetime persian-calendar persian-to-gregorian persian-jalali-date-converter shamsi shamsi-date hijri-dates-converter hijri hidjri lunar-date</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.6</Version>
+    <PackageReleaseNotes>compiled for .NET 6.0</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
