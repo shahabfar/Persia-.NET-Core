@@ -2,7 +2,7 @@
 
 ![Github tags](https://github.com/shahabfar/Persia-.NET-Core/workflows/.NET%20Core%20Build/badge.svg)
 
-Persia .NET Core is a class library to convert Persian, Gregorian, and Arabic (Hijri) dates to each other. This library has been developed based on .NET Core and it is now compatible with .NET 6.0
+Persia .NET Core is a class library to convert Persian, Gregorian, and Arabic (Hijri) dates to each other. This library has been developed based on .NET Core and it is now compatible with .NET 7.0
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -10,7 +10,7 @@ Persia .NET Core is a class library to convert Persian, Gregorian, and Arabic (H
 
 To install Persia.NET Core, run the following command in the Package Manager Console:
 
-[![NuGet version (Persia.NetCore)](https://img.shields.io/nuget/v/Persia.NetCore.svg?style=flat-square)](https://www.nuget.org/packages/Persia.NetCore/)
+[![Nuget](https://img.shields.io/nuget/v/Persia.NetCore)](https://github.com/shahabfar/Persia-.NET-Core)
 
 ```
 PM> Install-Package Persia.NetCore
