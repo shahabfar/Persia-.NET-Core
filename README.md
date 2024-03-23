@@ -1,5 +1,18 @@
 # Persia.NET Core
 
+# Project Deprecated
+
+Dear users,
+
+I would like to inform you that this project is now deprecated and will no longer be maintained or updated. We appreciate your support and contributions over the years.
+
+We're excited to announce that we have a new version of this class library, which includes several enhancements and new features. We encourage you to visit and use the new repository for the latest updates and improvements.
+
+You can access the new repository at this [link](https://github.com/shahabfar/Persia.Net). 
+
+Thank you for your understanding and we look forward to your continued support on our new project.
+
+
 ![Github tags](https://github.com/shahabfar/Persia-.NET-Core/workflows/.NET%20Core%20Build/badge.svg)
 
 Persia .NET Core is a class library to convert Persian, Gregorian, and Arabic (Hijri) dates to each other. This library has been developed based on .NET Core and it is now compatible with .NET 7.0
