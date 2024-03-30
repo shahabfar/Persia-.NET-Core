@@ -2,15 +2,15 @@
 
 # Project Deprecated
 
-Dear users,
+Dear developers,
 
 I would like to inform you that this project is now deprecated and will no longer be maintained or updated. We appreciate your support and contributions over the years.
 
-We're excited to announce that we have a new version of this class library, which includes several enhancements and new features. We encourage you to visit and use the new repository for the latest updates and improvements.
+I'm excited to announce that I have a new version of this class library, which includes several enhancements and new features. I encourage you to visit and use the new repository for the latest updates and improvements.
 
 You can access the new repository at this [link](https://github.com/shahabfar/Persia.Net). 
 
-Thank you for your understanding and we look forward to your continued support on our new project.
+Thank you for your understanding and I look forward to your continued support on my new project.
 
 
 ![Github tags](https://github.com/shahabfar/Persia-.NET-Core/workflows/.NET%20Core%20Build/badge.svg)
